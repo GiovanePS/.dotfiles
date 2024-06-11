@@ -31,6 +31,7 @@ $ stow .
 If already exist some file, run that with `--adopt` flag, to use that file
 ```
 $ stow --adopt .
+$ git reset --hard
 ```
 
 or rename that file/folder, like that:
