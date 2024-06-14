@@ -53,7 +53,7 @@ vim.cmd('filetype plugin indent on')
 vim.cmd('syntax on')
 
 -- Enable mouse click
-vim.opt.mouse = 'a'
+-- vim.opt.mouse = 'a'
 
 -- Use system clipboard
 vim.opt.clipboard = 'unnamedplus'
