@@ -17,9 +17,7 @@ Plug('junegunn/fzf.vim')
 
 Plug('nvim-lua/plenary.nvim')
 
-Plug ('scottmckendry/cyberdream.nvim')
+Plug('scottmckendry/cyberdream.nvim')
 
 
 vim.call('plug#end')
-
-
