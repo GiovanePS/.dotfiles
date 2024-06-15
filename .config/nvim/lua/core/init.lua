@@ -1,4 +1,5 @@
 require('..plugins.plugins')
+require('colourscheme')
 
 -- Disable compatibility to old-time vi
 vim.opt.compatible = false

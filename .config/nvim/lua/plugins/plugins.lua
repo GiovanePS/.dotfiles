@@ -21,5 +21,3 @@ Plug('scottmckendry/cyberdream.nvim')
 
 
 vim.call('plug#end')
-
-require('colourscheme')
