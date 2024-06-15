@@ -1,5 +1,10 @@
+require('plugins')
+
 -- Disable compatibility to old-time vi
 vim.opt.compatible = false
+
+-- Colorscheme
+vim.cmd('colorscheme cyberdream')
 
 -- Show matching parentheses and brackets
 vim.opt.showmatch = true
@@ -90,8 +95,13 @@ Plug('junegunn/fzf.vim')
 
 Plug('nvim-lua/plenary.nvim')
 
+Plug ('scottmckendry/cyberdream.nvim')
+
 
 vim.call('plug#end')
+
+
+
 
 
 -- Check if running in VSCode
