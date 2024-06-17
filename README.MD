@@ -70,4 +70,5 @@ ripgrep
 kitty
 neovim
 lazygit
+universal-ctags
 ```

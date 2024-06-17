@@ -33,6 +33,9 @@ Plug('cpea2506/one_monokai.nvim')
 -- Treesitter
 Plug('nvim-treesitter/nvim-treesitter')
 
+-- Nvim Tree
+Plug('nvim-tree/nvim-tree.lua')
+
 -- Go Plugin
 Plug('ray-x/go.nvim')
 Plug('ray-x/guihua.lua'); -- recommended if need floating window support
@@ -75,7 +78,6 @@ require('lspconfig').gopls.setup{
 }
 vim.cmd(':COQnow -s')
 
-
 -- Lualine
 require('plugins.lualine')
 
@@ -85,3 +87,5 @@ require('gitsigns').setup()
 -- Bufferline
 vim.opt.termguicolors = true
 require("bufferline").setup{}
+
+require('plugins.nvim_tree')
