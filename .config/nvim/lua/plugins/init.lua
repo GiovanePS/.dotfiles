@@ -18,6 +18,7 @@ Plug('junegunn/fzf.vim')
 Plug('nvim-lua/plenary.nvim')
 
 Plug('scottmckendry/cyberdream.nvim')
+Plug 'tanvirtin/monokai.nvim'
 
 -- Go Plugin
 Plug('nvim-treesitter/nvim-treesitter')
@@ -35,6 +36,6 @@ Plug('hrsh7th/nvim-cmp')
 vim.call('plug#end')
 
 -- Requires
-require('plugins.colourscheme')
+require('themes.colourscheme')
 require('go').setup()
 require('plugins.complete')
