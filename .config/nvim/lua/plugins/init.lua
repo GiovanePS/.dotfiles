@@ -22,6 +22,8 @@ Plug 'tanvirtin/monokai.nvim'
 
 -- Go Plugin
 Plug('nvim-treesitter/nvim-treesitter')
+Plug('nvim-treesitter/nvim-treesitter')
+
 Plug('ray-x/go.nvim')
 Plug('ray-x/guihua.lua'); -- recommended if need floating window support
 
@@ -38,3 +40,4 @@ vim.call('plug#end')
 -- Requires
 require('go').setup()
 require('plugins.complete')
+require'nvim-treesitter.configs'.setup{highlight={enable=true}}
