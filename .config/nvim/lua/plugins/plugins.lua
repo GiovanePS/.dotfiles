@@ -21,7 +21,6 @@ Plug('scottmckendry/cyberdream.nvim')
 
 -- Go Plugin
 Plug('nvim-treesitter/nvim-treesitter')
-Plug('neovim/nvim-lspconfig')
 Plug('ray-x/go.nvim')
 Plug('ray-x/guihua.lua'); -- recommended if need floating window support
 
