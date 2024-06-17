@@ -17,8 +17,10 @@ Plug('junegunn/fzf.vim')
 -- Gitsigns
 Plug('lewis6991/gitsigns.nvim')
 
--- Lua Line
+-- Plenary
 Plug('nvim-lua/plenary.nvim')
+
+-- Lua Line
 Plug('nvim-lualine/lualine.nvim')
 Plug('nvim-tree/nvim-web-devicons')
 
@@ -28,38 +30,51 @@ Plug('tanvirtin/monokai.nvim')
 Plug('navarasu/onedark.nvim')
 Plug('cpea2506/one_monokai.nvim')
 
--- Go Plugin
+-- Treesitter
 Plug('nvim-treesitter/nvim-treesitter')
 
+-- Go Plugin
 Plug('ray-x/go.nvim')
 Plug('ray-x/guihua.lua'); -- recommended if need floating window support
 
 -- Bufferline
 Plug('akinsho/bufferline.nvim', { ['tag'] = '*' })
 
--- Complete
+-- LSP
 Plug('neovim/nvim-lspconfig')
-Plug('hrsh7th/cmp-nvim-lsp')
-Plug('hrsh7th/cmp-buffer')
-Plug('hrsh7th/cmp-path')
-Plug('hrsh7th/cmp-cmdline')
-Plug('hrsh7th/nvim-cmp')
+
+-- Completions
+Plug('ms-jpq/coq_nvim', { ['branch'] = 'coq' })
+Plug('ms-jpq/coq.artifacts', { ['branch'] = 'artifacts'})
+Plug('ms-jpq/coq.thirdparty', { ['branch'] = '3p'})
+
+-- Mason
+Plug 'williamboman/mason.nvim'
 
 vim.call('plug#end')
 
--- Plugin requires
+-- PLUGIN REQUIRES
 
 -- Golang
 require('go').setup()
 
 -- Completions
-require('plugins.complete')
+require("mason").setup()
 
 -- Treesitter
 require('nvim-treesitter.configs').setup{
   highlight={enable=true},
-  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua'},
+  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua', 'bash'},
 }
+
+-- LSP CONFIG
+require('coq')
+-- Golang
+require('lspconfig').gopls.setup{
+  coq.lsp_ensure_capabilities()
+}
+vim.cmd(':COQnow -s')
+
 
 -- Lualine
 require('plugins.lualine')
