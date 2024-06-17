@@ -6,7 +6,7 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
 
-
+-- Fuzzer
 -- FZF Dependencies:
 -- sudo nala install fzf bat ripgrep silversearcher-ag perl universal-ctags
 Plug('junegunn/fzf', { ['do'] = function()
@@ -14,7 +14,10 @@ Plug('junegunn/fzf', { ['do'] = function()
 end })
 Plug('junegunn/fzf.vim')
 
+-- Gitsigns
+Plug('lewis6991/gitsigns.nvim')
 
+-- Lua Line
 Plug('nvim-lua/plenary.nvim')
 Plug('nvim-lualine/lualine.nvim')
 Plug('nvim-tree/nvim-web-devicons')
@@ -55,4 +58,8 @@ require('nvim-treesitter.configs').setup{
   ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua'},
 }
 
+-- Lualine
 require('plugins.lualine')
+
+-- Gitsigns
+require('gitsigns').setup()

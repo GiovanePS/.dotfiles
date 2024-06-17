@@ -56,3 +56,14 @@ Enter on nvim and type:
 ```
 :PlugInstall
 ```
+
+# Prograns to install
+```
+nala
+bat
+ripgrep
+kitty
+neovim
+lazygit
+```
+
