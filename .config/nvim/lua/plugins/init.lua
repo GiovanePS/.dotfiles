@@ -34,6 +34,9 @@ Plug('nvim-treesitter/nvim-treesitter')
 Plug('ray-x/go.nvim')
 Plug('ray-x/guihua.lua'); -- recommended if need floating window support
 
+-- Bufferline
+Plug('akinsho/bufferline.nvim', { ['tag'] = '*' })
+
 -- Complete
 Plug('neovim/nvim-lspconfig')
 Plug('hrsh7th/cmp-nvim-lsp')
@@ -63,3 +66,7 @@ require('plugins.lualine')
 
 -- Gitsigns
 require('gitsigns').setup()
+
+-- Bufferline
+vim.opt.termguicolors = true
+require("bufferline").setup{}
