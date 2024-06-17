@@ -17,11 +17,13 @@ Plug('junegunn/fzf.vim')
 
 Plug('nvim-lua/plenary.nvim')
 
+-- Themes
 Plug('scottmckendry/cyberdream.nvim')
-Plug 'tanvirtin/monokai.nvim'
+Plug('tanvirtin/monokai.nvim')
+Plug('navarasu/onedark.nvim')
+Plug('cpea2506/one_monokai.nvim')
 
 -- Go Plugin
-Plug('nvim-treesitter/nvim-treesitter')
 Plug('nvim-treesitter/nvim-treesitter')
 
 Plug('ray-x/go.nvim')
@@ -37,7 +39,17 @@ Plug('hrsh7th/nvim-cmp')
 
 vim.call('plug#end')
 
--- Requires
+-- Plugin requires
+
+-- Golang
 require('go').setup()
+
+-- Completions
 require('plugins.complete')
-require'nvim-treesitter.configs'.setup{highlight={enable=true}}
+
+-- Treesitter
+require('nvim-treesitter.configs').setup{
+  highlight={enable=true},
+  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc'},
+}
+

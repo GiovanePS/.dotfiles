@@ -1,9 +1,6 @@
 -- Disable compatibility to old-time vi
 vim.opt.compatible = false
 
--- Colorscheme
-vim.cmd('colorscheme monokai_soda')
-
 -- Show matching parentheses and brackets
 vim.opt.showmatch = true
 
