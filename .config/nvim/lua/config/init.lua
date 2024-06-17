@@ -52,6 +52,7 @@ vim.cmd('filetype plugin indent on')
 -- Enable syntax highlighting
 vim.cmd('syntax on')
 
+
 -- Enable mouse click
 -- vim.opt.mouse = 'a'
 
