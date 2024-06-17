@@ -16,6 +16,8 @@ Plug('junegunn/fzf.vim')
 
 
 Plug('nvim-lua/plenary.nvim')
+Plug('nvim-lualine/lualine.nvim')
+Plug('nvim-tree/nvim-web-devicons')
 
 -- Themes
 Plug('scottmckendry/cyberdream.nvim')
@@ -50,6 +52,7 @@ require('plugins.complete')
 -- Treesitter
 require('nvim-treesitter.configs').setup{
   highlight={enable=true},
-  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc'},
+  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua'},
 }
 
+require('plugins.lualine')
