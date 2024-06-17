@@ -36,6 +36,5 @@ Plug('hrsh7th/nvim-cmp')
 vim.call('plug#end')
 
 -- Requires
-require('themes.colourscheme')
 require('go').setup()
 require('plugins.complete')
