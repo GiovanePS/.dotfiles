@@ -5,16 +5,26 @@
 ### 1. Git
 
 ```
-sudo apt install -y git
+sudo nala install -y git
 ```
 
-### 2. Stow
+### 2. zsh
+```
+sudo nala install -y zsh
+```
+
+### 3. oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### 4. Stow
 
 ```
-sudo apt install -y stow
+sudo nala install -y stow
 ```
 
-### 3. Vim Plug:
+### 5. Vim Plug:
 Linux, Unix for Neovim:
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -74,11 +84,12 @@ Enter on nvim and type:
 
 # Programs to install
 ```
+kitty
 nala
+zsh
+oh-my-zsh
 bat
 ripgrep
-kitty
 neovim
-lazygit
 universal-ctags
 ```
