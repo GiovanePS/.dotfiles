@@ -83,6 +83,7 @@ require('plugins.lualine')
 
 -- Gitsigns
 require('gitsigns').setup()
+vim.cmd(':Gitsigns toggle_current_line_blame')
 
 -- Bufferline
 vim.opt.termguicolors = true
