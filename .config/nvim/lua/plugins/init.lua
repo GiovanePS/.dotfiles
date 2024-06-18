@@ -86,8 +86,7 @@ require('gitsigns').setup()
 vim.cmd(':Gitsigns toggle_current_line_blame')
 
 -- Bufferline
-vim.opt.termguicolors = true
 require("bufferline").setup{}
 
 require('plugins.nvim_tree')
--- vim.cmd(':NvimTreeOpen')
+vim.cmd(':NvimTreeOpen')
