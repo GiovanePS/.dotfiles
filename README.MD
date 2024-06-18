@@ -62,7 +62,17 @@ Enter on nvim and type:
 :PlugInstall
 ```
 
-# Prograns to install
+### COQ Dependencies:
+```
+:COQdeps
+```
+
+### Mason Binaries
+```
+:MasonInstall gopls
+```
+
+# Programs to install
 ```
 nala
 bat
