@@ -67,7 +67,7 @@ require("mason").setup()
 -- Treesitter
 require('nvim-treesitter.configs').setup{
   highlight={enable=true},
-  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua', 'bash'},
+  ensure_installed = {'c', 'cpp', 'go', 'python', 'vim', 'vimdoc', 'lua', 'bash', 'dockerfile'},
 }
 
 -- LSP CONFIG
@@ -89,3 +89,4 @@ vim.opt.termguicolors = true
 require("bufferline").setup{}
 
 require('plugins.nvim_tree')
+-- vim.cmd(':NvimTreeOpen')
