@@ -54,6 +54,9 @@ Plug('ms-jpq/coq.thirdparty', { ['branch'] = '3p'})
 -- Mason
 Plug 'williamboman/mason.nvim'
 
+-- Abolish (Sensitive Case Plugin)
+Plug('tpope/vim-abolish')
+
 vim.call('plug#end')
 
 -- PLUGIN REQUIRES
@@ -92,4 +95,5 @@ vim.cmd(':Gitsigns toggle_current_line_blame')
 -- Bufferline
 require("bufferline").setup{}
 
+-- Nvim Tree
 require('plugins.nvim_tree')
