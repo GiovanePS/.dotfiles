@@ -89,4 +89,3 @@ vim.cmd(':Gitsigns toggle_current_line_blame')
 require("bufferline").setup{}
 
 require('plugins.nvim_tree')
-vim.cmd(':NvimTreeOpen')

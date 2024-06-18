@@ -72,11 +72,3 @@ vim.opt.ttyfast = true
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
 
-
--- Check if running in VSCode
-if vim.g.vscode then
-  -- VSCode extension specific settings
-else
-  -- Ordinary Neovim settings
-end
-
