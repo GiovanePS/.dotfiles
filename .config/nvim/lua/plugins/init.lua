@@ -89,8 +89,7 @@ require('lspconfig').clangd.setup{
 require('plugins.lualine')
 
 -- Gitsigns
-require('gitsigns').setup()
-vim.cmd(':Gitsigns toggle_current_line_blame')
+require('plugins.gitsigns')
 
 -- Bufferline
 require("bufferline").setup{}
