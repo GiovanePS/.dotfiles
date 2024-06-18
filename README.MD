@@ -24,13 +24,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo nala install -y stow
 ```
 
-### 5. Vim Plug:
-Linux, Unix for Neovim:
-```
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-```
-
 ### 4. Nerd fonts:
 ```
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
@@ -64,12 +57,6 @@ $ stow .
 ### To pull with submodules use:
 ```
 git pull --recurse-submodules
-```
-
-### Vim Plug Instalation:
-Enter on nvim and type:
-```
-:PlugInstall
 ```
 
 ### COQ Dependencies:
