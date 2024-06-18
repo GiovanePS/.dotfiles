@@ -79,7 +79,7 @@ Enter on nvim and type:
 
 ### Mason Binaries
 ```
-:MasonInstall gopls clangd
+:MasonInstall gopls clangd lua-language-server
 ```
 
 # Programs to install
