@@ -79,7 +79,7 @@ Enter on nvim and type:
 
 ### Mason Binaries
 ```
-:MasonInstall gopls
+:MasonInstall gopls clangd
 ```
 
 # Programs to install
