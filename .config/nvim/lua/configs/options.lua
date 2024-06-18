@@ -1,3 +1,7 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+
 -- Disable compatibility to old-time vi
 vim.opt.compatible = false
 
@@ -71,4 +75,3 @@ vim.opt.ttyfast = true
 
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
-
