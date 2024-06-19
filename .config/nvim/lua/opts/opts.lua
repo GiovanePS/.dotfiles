@@ -7,9 +7,6 @@ vim.opt.showmatch = true
 -- Case insensitive searching
 vim.opt.ignorecase = true
 
--- Middle-click paste with mouse
-vim.opt.mouse = "v"
-
 -- Highlight search results
 vim.opt.hlsearch = true
 
@@ -56,7 +53,7 @@ vim.cmd("syntax on")
 -- vim.opt.mouse = 'a'
 
 -- Use system clipboard
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = "unnamed"
 
 -- Highlight the current cursor line
 vim.opt.cursorline = true
