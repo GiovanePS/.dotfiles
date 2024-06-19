@@ -58,12 +58,6 @@ $ stow .
 ```
 git pull --recurse-submodules
 ```
-
-### COQ Dependencies:
-```
-:COQdeps
-```
-
 ### Mason Binaries
 ```
 :MasonInstall gopls clangd lua-language-server
