@@ -111,4 +111,6 @@ export PAGER='bat'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias sd="cd ~ && cd \$(find . -type d | fzf)"
+
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
