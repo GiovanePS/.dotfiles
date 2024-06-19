@@ -49,8 +49,8 @@ vim.cmd("filetype plugin indent on")
 -- Enable syntax highlighting
 vim.cmd("syntax on")
 
--- Enable mouse click
--- vim.opt.mouse = 'a'
+-- Disabling mouse in nvim
+vim.opt.mouse = ""
 
 -- Use system clipboard
 vim.opt.clipboard = "unnamed"
