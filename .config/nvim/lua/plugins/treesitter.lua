@@ -1,4 +1,4 @@
-local opts = {
+return {
   "nvim-treesitter/nvim-treesitter",
   highlight = { enable = true },
   indent = { enable = true },
@@ -32,5 +32,3 @@ local opts = {
     "dockerfile",
   },
 }
-
-return { opts }
