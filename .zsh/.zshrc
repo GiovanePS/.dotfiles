@@ -111,6 +111,6 @@ export PAGER='bat'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias sd='cd ~ && cd $(find . -type d -o -type f | fzf | xargs -I {} dirname {} | head -n 1)'
+alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$selection" ]; then cd "$selection"; else cd "$(dirname "$selection")"; fi'
 
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
