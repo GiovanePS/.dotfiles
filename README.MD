@@ -59,6 +59,11 @@ $ stow .
 git pull --recurse-submodules
 ```
 
+### Mason Installs:
+```
+:Mason
+```
+
 # Programs to install
 ```
 kitty
@@ -68,5 +73,6 @@ oh-my-zsh
 bat
 ripgrep
 neovim
+lazy-nvim
 universal-ctags
 ```
