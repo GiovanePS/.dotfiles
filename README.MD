@@ -58,10 +58,6 @@ $ stow .
 ```
 git pull --recurse-submodules
 ```
-### Mason Binaries
-```
-:MasonInstall gopls clangd lua-language-server
-```
 
 # Programs to install
 ```
