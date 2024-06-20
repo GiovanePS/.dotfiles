@@ -1,0 +1,7 @@
+[user]
+	name = GiovanePS
+	email = giovanespace@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = master
