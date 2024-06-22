@@ -5,6 +5,10 @@ return {
     ensure_installed = {
       "gopls",
       "clangd",
+      "autoflake",
+      "autopep8",
+      "flake8",
+      "pyright",
     },
   },
 }
