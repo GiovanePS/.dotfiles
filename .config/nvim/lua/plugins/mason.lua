@@ -6,7 +6,7 @@ return {
       "gopls",
       "clangd",
       "pyright",
-      "ruff_lsp",
+      "ruff-lsp",
       "black",
     },
   },
