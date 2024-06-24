@@ -67,12 +67,14 @@ git pull --recurse-submodules
 # Programs to install
 ```
 kitty
+tmux
 nala
 zsh
 oh-my-zsh
 bat
 ripgrep
 neovim
+fzf
 lazy-nvim
 universal-ctags
 ```
