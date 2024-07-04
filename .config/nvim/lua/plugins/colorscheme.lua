@@ -13,7 +13,7 @@ return {
       vim.defer_fn(function()
         vim.cmd([[
           hi Normal guibg=none ctermbg=none
-          hi LineNr guibg=none ctermbg=none
+          hi LineNr guibg=none guifg=#999999 ctermbg=none
           hi SignColumn guibg=none ctermbg=none
           hi CursorLineNr guibg=none ctermbg=none
           hi Visual guibg=#5F5A60
