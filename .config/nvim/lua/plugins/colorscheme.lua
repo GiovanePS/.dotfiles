@@ -8,9 +8,8 @@ return {
         palette = require("monokai").soda,
         transparent = true,
       })
-      -- Ensure the colorscheme is applied
+
       vim.cmd([[colorscheme monokai]])
-      -- Set the background of the Normal and other highlight groups to none after a short delay
       vim.defer_fn(function()
         vim.cmd([[
           hi Normal guibg=none ctermbg=none
