@@ -17,7 +17,7 @@ return {
           hi LineNr guibg=none ctermbg=none
           hi SignColumn guibg=none ctermbg=none
           hi CursorLineNr guibg=none ctermbg=none
-          hi Visual guibg=#2D2A2E
+          hi Visual guibg=#5F5A60
         ]])
       end, 100)
     end,
