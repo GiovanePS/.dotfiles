@@ -3,6 +3,8 @@ vim.opt.compatible = false
 
 -- Show matching parentheses and brackets
 vim.opt.showmatch = true
+-- Color of matching parentheses and brackets
+vim.cmd([[ highlight MatchParen cterm=bold ctermbg=none ctermfg=none guibg=#97e023 guifg=#333842 ]])
 
 -- Case insensitive searching
 vim.opt.ignorecase = true
