@@ -73,6 +73,9 @@ zsh
 oh-my-zsh
 bat
 ripgrep
+fd-find
+lua
+luarocks
 neovim
 fzf
 lazy-nvim
