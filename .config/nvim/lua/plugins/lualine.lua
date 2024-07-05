@@ -8,7 +8,7 @@ return {
     config = function()
       require("lualine").setup({
         options = {
-          theme = "monokai_soda", -- Adjust theme as per your setup
+          theme = "auto", -- Adjust theme as per your setup
         },
         sections = {
           lualine_c = { { "filename", path = 1 } }, -- Display filename with full path
