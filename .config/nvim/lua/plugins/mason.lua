@@ -4,6 +4,8 @@ return {
   opts = {
     ensure_installed = {
       "gopls",
+      "goimports",
+      "delve", -- Go debugger
       "clangd",
       "pyright",
       "ruff-lsp",
