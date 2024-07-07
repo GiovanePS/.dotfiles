@@ -25,8 +25,16 @@ sudo nala install -y stow
 ```
 
 ### 4. Nerd fonts:
+https://www.nerdfonts.com/font-downloads
+
+JetBrainsMono
 ```
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+```
+
+IosevkaTerm
+```
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/IosevkaTerm.zip
 ```
 
 ### Instalation
