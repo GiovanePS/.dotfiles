@@ -80,17 +80,18 @@ git pull --recurse-submodules
 # Programs to install
 ```
 kitty
-tmux
 nala
 zsh
 oh-my-zsh
+tmux
+oh-my-tmux
+universal-ctags
 bat
 ripgrep
-fd-find
 lua
 luarocks
-neovim
+fd-find
 fzf
+neovim
 lazy-nvim
-universal-ctags
 ```
