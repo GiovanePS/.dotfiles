@@ -37,6 +37,11 @@ IosevkaTerm
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/IosevkaTerm.zip
 ```
 
+PowerlineFonts
+```
+curl -OL https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+```
+
 ### Instalation
 
 First, check out the dotfiles repo in your $HOME directory using git:
