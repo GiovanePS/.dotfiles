@@ -8,6 +8,7 @@ return {
       "c",
       "diff",
       "html",
+      "css",
       "javascript",
       "jsdoc",
       "json",
@@ -30,6 +31,7 @@ return {
       "yaml",
       "go",
       "dockerfile",
+      "svelte",
     },
   },
 }

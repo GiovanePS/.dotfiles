@@ -10,6 +10,7 @@ return {
       "pyright",
       "ruff-lsp",
       "black",
+      "svelte-language-server",
     },
   },
 }
