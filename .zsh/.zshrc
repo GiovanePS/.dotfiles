@@ -3,6 +3,7 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export TERM=xterm-256color
 export PATH="$PATH:/opt/nvim-linux64/bin"
 

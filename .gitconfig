@@ -3,9 +3,20 @@
 	email = giovanespace@gmail.com
 [core]
 	editor = nvim
+  pager = delta
 [init]
 	defaultBranch = master
 [diff]
 	wsErrorHighlight = all
+  colorMoved = default
 [pull]
 	rebase = true
+[merge]
+  conflictstyle = diff3
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  line-numbers = true

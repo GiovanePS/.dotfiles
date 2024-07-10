@@ -81,10 +81,13 @@ git pull --recurse-submodules
 ```
 kitty
 nala
+brew
+  tlrc
+  git-delta
 zsh
-oh-my-zsh
+  oh-my-zsh
 tmux
-oh-my-tmux
+  oh-my-tmux
 universal-ctags
 bat
 ripgrep
@@ -93,5 +96,5 @@ luarocks
 fd-find
 fzf
 neovim
-lazy-nvim
+  lazy-nvim
 ```
