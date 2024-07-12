@@ -66,6 +66,9 @@ vim.opt.cursorline = true
 -- Speed up scrolling in Vim
 vim.opt.ttyfast = true
 
+-- Change foldmethod to manual
+vim.opt.foldmethod = "manual"
+
 -- Uncomment the following lines to enable spell check and disable creating swap files
 -- vim.opt.spell = true
 -- vim.opt.swapfile = false
