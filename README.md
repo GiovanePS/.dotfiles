@@ -15,13 +15,18 @@ sudo nala install -y zsh
 
 ### 3. oh-my-zsh
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+https://ohmyz.sh/
 ```
 
 ### 4. Stow
 
 ```
 sudo nala install -y stow
+```
+
+### 5. Brew
+```
+https://brew.sh/
 ```
 
 ### 4. Nerd fonts:
@@ -47,7 +52,7 @@ curl -OL https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbol
 First, check out the dotfiles repo in your $HOME directory using git:
 
 ```
-$ git clone git@github.com:GiovanePS/.dotfiles.git
+$ git clone --recurse-submodules git@github.com:GiovanePS/.dotfiles.git
 $ cd .dotfiles
 ```
 
