@@ -5,12 +5,10 @@ return {
     ensure_installed = {
       "gopls",
       "goimports",
-      "delve", -- Go debugger
       "clangd",
       "pyright",
       "ruff-lsp",
       "black",
-      "svelte-language-server",
     },
   },
 }
