@@ -100,7 +100,7 @@ ZSH_COMPDUMP="${ZSH_CACHE_DIR}/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
 
 export VISUAL='nvim'
 export EDITOR='nvim'
-export PAGER='bat'
+export PAGER='batcat'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -119,5 +119,8 @@ alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$sele
 
 # alias to exa to e
 alias e='exa'
+
+# alias to batcat to b
+alias b='batcat'
 
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
