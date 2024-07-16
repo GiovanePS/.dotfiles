@@ -89,6 +89,7 @@ nala
 brew
   tlrc
   git-delta
+  lazygit
 zsh
   oh-my-zsh
 tmux
@@ -100,6 +101,8 @@ lua
 luarocks
 fd-find
 fzf
+ranger
+zoxide
 neovim
   lazy-nvim
 ```

@@ -124,3 +124,5 @@ alias e='exa'
 alias b='batcat'
 
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
+
+eval "$(zoxide init zsh)"
