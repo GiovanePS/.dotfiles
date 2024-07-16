@@ -1,7 +1,5 @@
 # This repository is for my config files
 
-## Requirements
-
 ### 1. Git
 
 ```
@@ -14,22 +12,17 @@ sudo nala install -y zsh
 ```
 
 ### 3. oh-my-zsh
-```
 https://ohmyz.sh/
-```
 
 ### 4. Stow
-
 ```
 sudo nala install -y stow
 ```
 
 ### 5. Brew
-```
 https://brew.sh/
-```
 
-### 4. Nerd fonts:
+### 6. Nerd fonts:
 https://www.nerdfonts.com/font-downloads
 
 JetBrainsMono
@@ -46,6 +39,15 @@ PowerlineFonts
 ```
 curl -OL https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 ```
+
+### 7. Atuin:
+https://docs.atuin.sh/
+
+```
+atuin login -u <USERNAME>
+atuin sync
+```
+
 
 ### Instalation
 
