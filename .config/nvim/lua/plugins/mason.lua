@@ -9,6 +9,7 @@ return {
       "pyright",
       "ruff-lsp",
       "black",
+      "powershell-editor-services",
     },
   },
 }
