@@ -32,6 +32,7 @@ return {
       "go",
       "dockerfile",
       "svelte",
+      "solidity",
     },
   },
 }

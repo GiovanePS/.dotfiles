@@ -10,6 +10,7 @@ return {
       "ruff-lsp",
       "black",
       "powershell-editor-services",
+      "solidity",
     },
   },
 }

@@ -401,6 +401,9 @@ set -g status-position top
 # use zsh as default
 set-option -g default-shell /bin/zsh
 
+# Remove the boring sound whenever change window
+set-option -g monitor-activity off
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
