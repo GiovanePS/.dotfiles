@@ -10,7 +10,7 @@ return {
       "ruff-lsp",
       "black",
       "powershell-editor-services",
-      "solidity",
+      "nomicfoundation-solidity-language-server",
     },
   },
 }
