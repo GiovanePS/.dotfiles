@@ -103,6 +103,7 @@ lua
 luarocks
 fd-find
 fzf
+xclip
 ranger
 zoxide
 neovim
