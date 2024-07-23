@@ -17,14 +17,9 @@ return {
           hi SignColumn guibg=none ctermbg=none
           hi CursorLineNr guibg=none ctermbg=none
           hi Visual guibg=#5F5A60
+          hi MatchParen cterm=bold ctermbg=none ctermfg=none guibg=#97e023 guifg=#333842
         ]])
       end, 100)
     end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "monokai",
-    },
   },
 }
