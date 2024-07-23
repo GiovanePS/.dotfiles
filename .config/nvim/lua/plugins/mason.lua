@@ -12,6 +12,7 @@ return {
       "powershell-editor-services",
       "nomicfoundation-solidity-language-server",
       "latexindent",
+      "texlab",
     },
   },
 }
