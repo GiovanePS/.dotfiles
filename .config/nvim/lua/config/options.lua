@@ -1,3 +1,7 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+
 -- Disable compatibility to old-time vi
 vim.opt.compatible = false
 
@@ -43,7 +47,7 @@ vim.opt.belloff = "all"
 vim.opt.wildmode = { "longest", "list" }
 
 -- Uncomment the following line to set an 80 column border for good coding style
--- vim.opt.colorcolumn = '80'
+-- vim.opt.colorcolumn = "80"
 
 -- Allow auto-indenting depending on file type
 vim.cmd("filetype plugin indent on")
@@ -57,7 +61,8 @@ vim.opt.mouse = ""
 -- Disabling mouse scroll
 vim.opt.mousescroll = "ver:0,hor:0"
 
--- Use system clipboard
+-- Use system clipboard with unnamedplus
+-- only unnamed not use the system clipboard
 vim.opt.clipboard = "unnamed"
 
 -- Highlight the current cursor line
