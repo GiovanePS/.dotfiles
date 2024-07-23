@@ -106,6 +106,10 @@ fzf
 xclip
 ranger
 zoxide
+latexmk
+biber
+zathura
+xdotool
 neovim
   lazy-nvim
 ```
