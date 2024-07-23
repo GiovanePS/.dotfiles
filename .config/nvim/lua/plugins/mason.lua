@@ -11,6 +11,7 @@ return {
       "black",
       "powershell-editor-services",
       "nomicfoundation-solidity-language-server",
+      "latexindent",
     },
   },
 }
