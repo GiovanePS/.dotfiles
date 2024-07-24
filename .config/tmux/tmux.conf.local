@@ -404,6 +404,10 @@ set-option -g default-shell /bin/zsh
 # Remove the boring sound whenever change window
 set-option -g monitor-activity off
 
+# bind C-q to toggle block visual mode instead C-v
+unbind C-v
+bind -T copy-mode-vi C-q send -X rectangle-toggle
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
