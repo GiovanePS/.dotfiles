@@ -4,9 +4,10 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-export TERM=xterm-256color
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/usr/local/texlive/2024/bin/x86_64-linux"
 
+export TERM=xterm-256color
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
