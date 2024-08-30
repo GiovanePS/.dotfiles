@@ -14,6 +14,7 @@ return {
       "latexindent",
       "texlab",
       "typescript-language-server",
+      "eslint-lsp",
     },
   },
 }
