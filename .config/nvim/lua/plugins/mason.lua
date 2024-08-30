@@ -13,6 +13,7 @@ return {
       "nomicfoundation-solidity-language-server",
       "latexindent",
       "texlab",
+      "typescript-language-server",
     },
   },
 }
