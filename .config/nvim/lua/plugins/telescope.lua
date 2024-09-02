@@ -8,12 +8,12 @@ return {
         defaults = {
           mappings = {
             i = {
-              ["<C-h>"] = actions.preview_scrolling_left,
-              ["<C-l>"] = actions.preview_scrolling_right,
+              ["<C-f>"] = actions.preview_scrolling_left,
+              ["<C-b>"] = actions.preview_scrolling_right,
             },
             n = {
-              ["<C-h>"] = actions.preview_scrolling_left,
-              ["<C-l>"] = actions.preview_scrolling_right,
+              ["<C-f>"] = actions.preview_scrolling_left,
+              ["<C-b>"] = actions.preview_scrolling_right,
             },
           },
         },
