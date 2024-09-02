@@ -1,18 +1,23 @@
 return {
-  "nvim-telescope/telescope.nvim",
-  config = function()
-    local actions = require("telescope.actions")
+  {
+    "nvim-telescope/telescope.nvim",
+    config = function()
+      local actions = require("telescope.actions")
 
-    require("telescope").setup({
-      defaults = {
-        mappings = {
-          i = {
-            ["<C-F>"] = function(prompt_bufnr)
-              actions.preview_scrolling_left(prompt_bufnr)
-            end,
+      require("telescope").setup({
+        defaults = {
+          mappings = {
+            i = {
+              ["<C-h>"] = actions.preview_scrolling_left,
+              ["<C-l>"] = actions.preview_scrolling_right,
+            },
+            n = {
+              ["<C-h>"] = actions.preview_scrolling_left,
+              ["<C-l>"] = actions.preview_scrolling_right,
+            },
           },
         },
-      },
-    })
-  end,
+      })
+    end,
+  },
 }
