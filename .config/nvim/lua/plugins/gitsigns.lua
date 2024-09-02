@@ -6,6 +6,10 @@ return {
     config = function()
       require("gitsigns").setup({
         -- other gitsigns configurations
+        current_line_blame = true,
+        current_line_blame_opts = {
+          delay = 300,
+        },
       })
 
       -- Set custom highlights for GitSigns
