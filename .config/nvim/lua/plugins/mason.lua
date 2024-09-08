@@ -15,6 +15,7 @@ return {
       "texlab",
       "typescript-language-server",
       "eslint-lsp",
+      "marksman",
     },
   },
 }
