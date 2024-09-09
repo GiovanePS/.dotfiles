@@ -33,6 +33,7 @@ return {
       "dockerfile",
       "svelte",
       "solidity",
+      "cmake",
     },
   },
 }

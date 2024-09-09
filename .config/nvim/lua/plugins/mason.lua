@@ -16,6 +16,7 @@ return {
       "typescript-language-server",
       "eslint-lsp",
       "marksman",
+      "cmake-language-server",
     },
   },
 }
