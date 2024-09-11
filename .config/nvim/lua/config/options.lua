@@ -69,9 +69,8 @@ vim.opt.cursorline = true
 -- Speed up scrolling in Vim
 vim.opt.ttyfast = true
 
--- Uncomment the following lines to enable spell check and disable creating swap files
--- vim.opt.spell = true
--- vim.opt.swapfile = false
+-- Disable creating swap files
+vim.opt.swapfile = false
 
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
