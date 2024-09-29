@@ -75,7 +75,7 @@ vim.opt.swapfile = false
 -- Disable spelling
 vim.opt.spell = false
 
-vim.g.autoformat = false
+vim.g.autoformat = true
 
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
