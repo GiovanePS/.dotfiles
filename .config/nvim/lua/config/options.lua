@@ -77,5 +77,7 @@ vim.opt.spell = false
 
 vim.g.autoformat = true
 
+vim.opt.termguicolors = true
+
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
