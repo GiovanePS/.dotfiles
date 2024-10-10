@@ -9,7 +9,6 @@ return {
           always_show_bufferline = true,
           show_buffer_close_icons = false,
           show_close_icon = false,
-          separator_style = "slope",
           diagnostics = "nvim_lsp",
           diagnostics_indicator = function(count, level)
             local icon = level:match("error") and " " or " "
