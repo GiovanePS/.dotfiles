@@ -17,6 +17,8 @@ return {
       "eslint-lsp",
       "marksman",
       "cmake-language-server",
+      "tailwindcss-language-server",
+      "svelte-language-server",
     },
   },
 }
