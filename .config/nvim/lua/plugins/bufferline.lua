@@ -78,19 +78,6 @@ return {
           },
         },
       })
-
-      vim.api.nvim_set_keymap(
-        "n",
-        "<localleader>l",
-        ":BufferLineMoveNext<CR>",
-        { noremap = true, silent = true, desc = "Move bufferline next" }
-      )
-      vim.api.nvim_set_keymap(
-        "n",
-        "<localleader>h",
-        ":BufferLineMovePrev<CR>",
-        { noremap = true, silent = true, desc = "Move bufferline previous" }
-      )
     end,
   },
 }
