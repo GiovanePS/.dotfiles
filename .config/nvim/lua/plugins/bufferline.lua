@@ -21,7 +21,6 @@ return {
             bg = "none",
           },
           background = {
-            fg = "none",
             bg = "none",
           },
           separator = {
@@ -29,6 +28,9 @@ return {
           },
           modified = {
             bg = "none",
+          },
+          tab = {
+            fg = "#FF0000",
           },
           -- Warnings
           warning = {
