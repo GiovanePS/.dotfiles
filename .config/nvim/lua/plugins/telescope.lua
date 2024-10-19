@@ -4,6 +4,8 @@ return {
     config = function()
       local actions = require("telescope.actions")
 
+      vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "NONE" })
+
       require("telescope").setup({
         defaults = {
           mappings = {
