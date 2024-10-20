@@ -66,6 +66,13 @@ vim.opt.clipboard = "unnamed"
 -- Highlight the current cursor line
 vim.opt.cursorline = true
 
+-- Cursor blinking
+vim.opt.guicursor = {
+  "n-v-c:block",
+  "i:ver25-blinkon1",
+  "r-cr:hor20",
+}
+
 -- Speed up scrolling in Vim
 vim.opt.ttyfast = true
 
