@@ -121,7 +121,7 @@ export PAGER='batcat'
 alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$selection" ]; then cd "$selection"; else cd "$(dirname "$selection")"; fi'
 
 # alias to exa to e
-alias e='exa'
+alias e='colorls'
 
 # alias to batcat to b
 alias b='batcat'
