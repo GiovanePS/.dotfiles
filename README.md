@@ -94,6 +94,8 @@ brew
   lazygit
 zsh
   oh-my-zsh
+  zsh-autosuggestions
+  powerlevel10k
 tmux
   oh-my-tmux
 universal-ctags
@@ -105,6 +107,7 @@ fd-find
 fzf
 xclip
 ranger
+colorls
 zoxide
 latexmk
 biber
