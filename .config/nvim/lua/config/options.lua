@@ -66,12 +66,20 @@ vim.opt.clipboard = "unnamed"
 -- Highlight the current cursor line
 vim.opt.cursorline = true
 
+-- vim.cmd("set guicursor=")
+
 -- Cursor blinking
 vim.opt.guicursor = {
   "n-v-c:block",
   "i:ver25-blinkon1",
   "r-cr:hor20",
 }
+
+vim.api.nvim_create_augroup("Shape", { clear = true })
+vim.api.nvim_create_autocmd("VimLeave", {
+  group = "Shape",
+  command = "set guicursor=a:ver90-blinkwait700-blinkon400-blinkoff250",
+})
 
 -- Speed up scrolling in Vim
 vim.opt.ttyfast = true
