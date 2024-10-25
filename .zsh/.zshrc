@@ -16,7 +16,8 @@ export PATH="$PATH:/usr/local/texlive/2024/bin/x86_64-linux"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export TERM=xterm-256color
+export TERM=tmux-256color
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 

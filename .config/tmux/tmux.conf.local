@@ -408,6 +408,8 @@ set-option -g monitor-activity off
 unbind C-v
 bind -T copy-mode-vi C-q send -X rectangle-toggle
 
+set-option -a terminal-features 'tmux-256color:RGB'
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
