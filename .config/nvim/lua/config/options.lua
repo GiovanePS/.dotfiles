@@ -18,16 +18,16 @@ vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 -- Number of columns occupied by a tab
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 
 -- See multiple spaces as tabstops so <BS> does the right thing
-vim.opt.softtabstop = 2
+vim.opt.softtabstop = 4
 
 -- Converts tabs to white space
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 
 -- Width for autoindents
-vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 4
 
 -- Indent a new line the same amount as the line just typed
 vim.opt.autoindent = true
