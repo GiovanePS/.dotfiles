@@ -96,5 +96,7 @@ vim.opt.termguicolors = true
 
 vim.o.ve = vim.o.ve .. ",onemore"
 
+vim.opt.fillchars = { eob = "~" }
+
 -- Uncomment the following line to set the backup directory
 -- vim.opt.backupdir = '~/.cache/vim'
