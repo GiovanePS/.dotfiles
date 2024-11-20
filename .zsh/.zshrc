@@ -142,6 +142,7 @@ eval "$(zoxide init zsh)"
 
 . "$HOME/.atuin/bin/env"
 . "$HOME/.asdf/asdf.sh"
+. "$HOME/.cargo/env"
 
 eval "$(atuin init zsh)"
 
