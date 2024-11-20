@@ -19,6 +19,7 @@ return {
       "cmake-language-server",
       "tailwindcss-language-server",
       "svelte-language-server",
+      "rust-analyzer",
     },
   },
 }

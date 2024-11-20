@@ -34,6 +34,7 @@ return {
       "svelte",
       "solidity",
       "cmake",
+      "rust",
     },
   },
 }
