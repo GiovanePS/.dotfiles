@@ -91,6 +91,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   git
   zsh-autosuggestions
+  asdf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -140,6 +141,7 @@ PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")
 eval "$(zoxide init zsh)"
 
 . "$HOME/.atuin/bin/env"
+. "$HOME/.asdf/asdf.sh"
 
 eval "$(atuin init zsh)"
 

@@ -99,6 +99,7 @@ zsh
 tmux
   oh-my-tmux
 universal-ctags
+asdf
 bat
 ripgrep
 lua
