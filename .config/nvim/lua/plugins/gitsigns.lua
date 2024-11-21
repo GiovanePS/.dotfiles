@@ -1,16 +1,10 @@
--- ~/.config/nvim/lua/config/plugins.lua
 return {
-  -- other plugin configurations
   {
     "lewis6991/gitsigns.nvim",
-    config = function()
-      require("gitsigns").setup({
-        -- other gitsigns configurations
-        current_line_blame = true,
-        current_line_blame_opts = {
-          delay = 300,
-        },
-      })
+    opts = function(_, opts)
+      -- Merge your custom configuration with the default
+      opts.current_line_blame = true
+      opts.current_line_blame_opts = { delay = 300 }
 
       -- Set custom highlights for GitSigns
       vim.api.nvim_set_hl(0, "GitSignsAdd", { fg = "#00ff00", bg = "none" })
@@ -24,5 +18,4 @@ return {
       vim.api.nvim_set_hl(0, "GitSignsDeleteLn", { bg = "none" })
     end,
   },
-  -- other plugin configurations
 }
