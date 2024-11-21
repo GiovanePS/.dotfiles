@@ -13,6 +13,7 @@ export PATH=$GOPATH/bin:$PATH
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$PATH:/usr/local/texlive/2024/bin/x86_64-linux"
+export MINIFAB_PATH=$HOME/mywork
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
