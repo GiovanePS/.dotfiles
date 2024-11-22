@@ -90,7 +90,7 @@ vim.opt.swapfile = false
 -- Disable spelling
 vim.opt.spell = false
 
-vim.g.autoformat = true
+vim.g.autoformat = false
 
 vim.opt.termguicolors = true
 
