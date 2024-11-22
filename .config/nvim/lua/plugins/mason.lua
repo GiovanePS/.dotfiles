@@ -20,6 +20,8 @@ return {
       "tailwindcss-language-server",
       "svelte-language-server",
       "rust-analyzer",
+      "css-lsp",
+      "html-lsp",
     },
   },
 }
