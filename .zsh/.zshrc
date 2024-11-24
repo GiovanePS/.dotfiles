@@ -18,6 +18,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export TERM=tmux-256color
+[ -z "$TMUX" ] && export TERM=xterm-256color # If not running in tmux, set xterm-256color
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
