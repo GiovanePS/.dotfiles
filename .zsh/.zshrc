@@ -131,12 +131,9 @@ export PAGER='batcat'
 
 # sd command, that fuzz files from home
 alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$selection" ]; then cd "$selection"; else cd "$(dirname "$selection")"; fi'
-
-# alias to exa to e
 alias e='colorls'
-
-# alias to batcat to b
 alias b='batcat'
+alias lg='lazygit'
 
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
 
