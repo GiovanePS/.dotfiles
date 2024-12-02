@@ -13,3 +13,7 @@ vim.api.nvim_set_keymap("n", "<C-f>", "<Nop>", { noremap = true, silent = false 
 
 -- Remove keymaps to Control- B do Scroll down
 vim.api.nvim_set_keymap("n", "<C-b>", "<Nop>", { noremap = true, silent = false })
+
+-- Map to Leader+y copy to clipboard
+vim.api.nvim_set_keymap("n", "<leader>y", '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<leader>y", '"+y', { noremap = true, silent = true })
