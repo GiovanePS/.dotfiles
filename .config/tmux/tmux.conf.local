@@ -408,6 +408,9 @@ set-option -g monitor-activity off
 unbind C-v
 bind -T copy-mode-vi C-q send -X rectangle-toggle
 
+# bind prefix + g to Open a new pane in current path
+bind g new-window -c '#{pane_current_path}' #!important
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
