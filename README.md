@@ -89,9 +89,12 @@ git pull --recurse-submodules
 kitty
 nala
 brew
-  tlrc
-  git-delta
-  lazygit
+    tlrc
+    git-delta
+	neovim
+		lazy-nvim
+    lazygit
+	yazi
 zsh
   oh-my-zsh
   zsh-autosuggestions
@@ -101,19 +104,16 @@ tmux
 universal-ctags
 asdf
 bat
-ripgrep
+ripgrep (rg)
 lua
 luarocks
-fd-find
+fd-find (fd)
 fzf
 xclip
-ranger
 colorls
 zoxide
 latexmk
 biber
 zathura
 xdotool
-neovim
-  lazy-nvim
 ```
