@@ -134,6 +134,8 @@ alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$sele
 alias e='colorls'
 alias b='batcat'
 alias lg='lazygit'
+alias n='nvim'
+alias y='yazi'
 
 PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
 
