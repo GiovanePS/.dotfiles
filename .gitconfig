@@ -3,12 +3,13 @@
 	email = giovanespace@gmail.com
 [core]
 	editor = nvim
-  pager = delta
+	pager = delta
+	excludesfile = /home/gio/.gitignore_global
 [init]
 	defaultBranch = master
 [diff]
 	wsErrorHighlight = all
-  colorMoved = default
+	colorMoved = default
 [pull]
 	rebase = true
 [merge]
