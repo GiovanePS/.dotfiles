@@ -19,7 +19,7 @@ return {
         hi MatchParen cterm=bold ctermbg=none ctermfg=none guibg=#97e023 guifg=#333842
 		hi MsgArea guibg=#222426
       ]])
-      end, 200)
+      end, 600)
     end,
   },
 }
