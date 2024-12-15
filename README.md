@@ -106,6 +106,7 @@ asdf
 bat
 ripgrep (rg)
 lua
+ranger
 luarocks
 fd-find (fd)
 fzf
