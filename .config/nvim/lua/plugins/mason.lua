@@ -10,7 +10,6 @@ return {
       "ruff-lsp",
       "black",
       "powershell-editor-services",
-      "nomicfoundation-solidity-language-server",
       "latexindent",
       "texlab",
       "typescript-language-server",

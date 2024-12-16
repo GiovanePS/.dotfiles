@@ -38,6 +38,9 @@ vim.opt.number = true
 -- Show relative line numbers
 vim.opt.relativenumber = true
 
+-- Add smart indent
+vim.opt.smartindent = true
+
 -- Disable all blinks (bells) in vim
 vim.opt.belloff = "all"
 
