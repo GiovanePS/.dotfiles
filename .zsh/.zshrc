@@ -99,6 +99,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 ZSH_COMPDUMP="${ZSH_CACHE_DIR}/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
 
+source <(fzf --zsh)
+
+bindkey -v
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
