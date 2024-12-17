@@ -94,14 +94,13 @@ plugins=(
   git
   zsh-autosuggestions
   asdf
+  zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
 ZSH_COMPDUMP="${ZSH_CACHE_DIR}/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
 
-source <(fzf --zsh)
 
-bindkey -v
 
 # User configuration
 
@@ -141,7 +140,7 @@ alias lg='lazygit'
 alias n='nvim'
 alias y='yazi'
 
-PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
+# PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
 
 eval "$(zoxide init zsh)"
 
@@ -150,6 +149,8 @@ eval "$(zoxide init zsh)"
 . "$HOME/.cargo/env"
 
 eval "$(atuin init zsh)"
+
+source <(fzf --zsh)
 
 # To customize prompt, run `p10k configure` or edit ~/.zsh/.p10k.zsh.
 [[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
