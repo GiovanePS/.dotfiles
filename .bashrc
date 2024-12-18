@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-eval "$(atuin init bash)"
+
 . "$HOME/.cargo/env"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
