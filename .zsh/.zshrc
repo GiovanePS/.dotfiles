@@ -82,6 +82,15 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
+source <(fzf --zsh)
+export FZF_CTRL_T_OPTS="
+  --preview 'batcat -n --color=always {}'
+  --bind 'ctrl-/:change-preview-window(down|hidden|)'
+  --bind 'alt-left:preview-page-up'
+  --bind 'alt-right:preview-page-down'
+  --bind 'alt-up:preview-up'
+  --bind 'alt-down:preview-down'"
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -140,17 +149,14 @@ alias lg='lazygit'
 alias n='nvim'
 alias y='yazi'
 
+unsetopt completealiases # this enables completion for aliases
+
 # PROMPT='%(?:%{%}%1{➜%} :%{%}%1{➜%} ) %{%}%F{green}$(pwd | sed "s|^$HOME|~|")%f%{%} $(git_prompt_info)'
 
 eval "$(zoxide init zsh)"
 
-. "$HOME/.atuin/bin/env"
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.cargo/env"
-
-eval "$(atuin init zsh)"
-
-source <(fzf --zsh)
 
 # To customize prompt, run `p10k configure` or edit ~/.zsh/.p10k.zsh.
 [[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
