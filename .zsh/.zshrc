@@ -144,6 +144,7 @@ export PAGER='batcat'
 # sd command, that fuzz files from home
 alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$selection" ]; then cd "$selection"; else cd "$(dirname "$selection")"; fi'
 alias e='colorls'
+alias l='colorls -la'
 alias b='batcat'
 alias lg='lazygit'
 alias n='nvim'
