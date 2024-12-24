@@ -95,6 +95,8 @@ brew
 		lazy-nvim
     lazygit
 	yazi
+	fzf
+	ripgrep (rg)
 zsh
   oh-my-zsh
   zsh-autosuggestions
@@ -104,12 +106,10 @@ tmux
 universal-ctags
 asdf
 bat
-ripgrep (rg)
 lua
 ranger
 luarocks
 fd-find (fd)
-fzf
 xclip
 colorls
 zoxide
