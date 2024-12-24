@@ -94,9 +94,10 @@ brew
 	neovim
 		lazy-nvim
     lazygit
-	yazi
+	yazi (see dependencies. (yazi --debug))
 	fzf
 	ripgrep (rg)
+	fd-find (fd)
 zsh
   oh-my-zsh
   zsh-autosuggestions
@@ -107,9 +108,7 @@ universal-ctags
 asdf
 bat
 lua
-ranger
 luarocks
-fd-find (fd)
 xclip
 colorls
 zoxide
