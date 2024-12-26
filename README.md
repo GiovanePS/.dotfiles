@@ -10,6 +10,7 @@ sudo nala install -y git
 ```
 sudo nala install -y zsh
 ```
+Already defined in the script.
 
 ### 3. oh-my-zsh
 https://ohmyz.sh/
@@ -18,8 +19,9 @@ https://ohmyz.sh/
 ```
 sudo nala install -y stow
 ```
+Already defined in the script.
 
-### 5. Brew
+### 5. Brew for Linux
 https://brew.sh/
 
 ### 6. Nerd fonts:
@@ -39,15 +41,6 @@ PowerlineFonts
 ```
 curl -OL https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 ```
-
-### 7. Atuin:
-https://docs.atuin.sh/
-
-```
-atuin login -u <USERNAME>
-atuin sync
-```
-
 
 ### Instalation
 
@@ -92,23 +85,24 @@ brew
     tlrc
     git-delta
 	neovim
-		lazy-nvim
+		lazy-nvim (see plugins to install dependencies for them)
     lazygit
 	yazi (see dependencies. (yazi --debug))
 	fzf
 	ripgrep (rg)
 	fd-find (fd)
 zsh
-  oh-my-zsh
-  zsh-autosuggestions
-  powerlevel10k
+	oh-my-zsh
+	zsh-autosuggestions
+	powerlevel10k
+	zsh-vi-mode
 tmux
   oh-my-tmux
 universal-ctags
 asdf
-bat
-lua
-luarocks
+bat (batcat)
+lua (5.1 in apt)
+luarocks (for lua 5.1 in apt)
 xclip
 colorls
 zoxide
