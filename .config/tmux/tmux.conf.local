@@ -411,6 +411,10 @@ bind -T copy-mode-vi C-q send -X rectangle-toggle
 # bind prefix + g to Open a new pane in current path
 bind g new-window -c '#{pane_current_path}' #!important
 
+# configs for image.nvim
+set -gq allow-passthrough on
+set -g visual-activity off
+
 # -- tpm -----------------------------------------------------------------------
 
 # while I don't use tpm myself, many people requested official support so here
