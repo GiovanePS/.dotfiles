@@ -1,3 +1,5 @@
+-- Dependencies:
+-- shell-color-scripts: https://gitlab.com/dwt1/shell-color-scripts
 return {
     "folke/snacks.nvim",
     opts = {
@@ -46,8 +48,7 @@ return {
                 {
                     pane = 2,
                     section = "terminal",
-                    -- cmd = "colorscript -e square",
-                    cmd = "",
+                    cmd = "colorscript -e square",
                     height = 6,
                     padding = 2,
                 },
@@ -59,7 +60,9 @@ return {
                     icon = " ",
                     title = "Git Status",
                     section = "terminal",
-                    enabled = vim.fn.isdirectory(".git") == 1,
+                    enabled = function()
+						return Snacks.git.get_root() ~= nil
+					end,
                     cmd = "git status -s -b --renames",
                     height = 5,
                     padding = 1,
