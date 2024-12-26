@@ -128,6 +128,7 @@ ZSH_COMPDUMP="${ZSH_CACHE_DIR}/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
 export VISUAL='nvim'
 export EDITOR='nvim'
 export PAGER='batcat'
+export ZVM_VI_EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
