@@ -7,6 +7,10 @@ return {
         vim.keymap.set("n", "zM", require("ufo").closeAllFolds)
 
         local language_servers = require("lspconfig").util.available_servers()
-        require("ufo").setup()
+        require("ufo").setup({
+            provider_selector = function(bufnr, filetype, buftype)
+                return { "treesitter", "indent" }
+            end,
+        })
     end,
 }
