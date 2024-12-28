@@ -22,6 +22,8 @@ return {
             "css-lsp",
             "html-lsp",
             "yaml-language-server",
+            "docker-compose-language-service",
+            "dockerfile-language-server",
         },
     },
 }
