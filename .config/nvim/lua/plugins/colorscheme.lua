@@ -4,6 +4,9 @@ return {
         lazy = false,
         priority = 1000,
         config = function()
+            if vim.g.colors_name ~= "monokai" then
+                return
+            end
             require("monokai").setup({
                 palette = require("monokai").soda,
             })
@@ -23,9 +26,16 @@ return {
         end,
     },
     {
+        "ellisonleao/gruvbox.nvim",
+        priority = 1000,
+        config = function()
+            vim.o.background = "light"
+        end,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "monokai",
+            colorscheme = "gruvbox",
         },
     },
 }
