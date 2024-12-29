@@ -16,7 +16,7 @@ return {
             end
 
             -- Merge custom highlights
-			if vim.g.colors_name ~= "monokai" then
+			if vim.g.colors_name == "gruvbox" then
 				return
 			end
             opts.highlights = vim.tbl_deep_extend("force", opts.highlights or {}, {

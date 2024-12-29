@@ -1,10 +1,11 @@
 return {
     {
         "tanvirtin/monokai.nvim",
-        lazy = false,
+		enabled = true,
+        lazy = true,
         priority = 1000,
         config = function()
-            if vim.g.colors_name ~= "monokai" then
+            if vim.g.colors_name == "gruvbox" then
                 return
             end
             require("monokai").setup({
@@ -27,6 +28,7 @@ return {
     },
     {
         "ellisonleao/gruvbox.nvim",
+		enabled = false,
         priority = 1000,
         config = function()
             vim.o.background = "light"
@@ -35,7 +37,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "gruvbox",
+			colorscheme = "monokai"
         },
     },
 }
