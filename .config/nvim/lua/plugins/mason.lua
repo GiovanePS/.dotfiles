@@ -24,6 +24,7 @@ return {
             "yaml-language-server",
             "docker-compose-language-service",
             "dockerfile-language-server",
+            "sqls",
         },
     },
 }
