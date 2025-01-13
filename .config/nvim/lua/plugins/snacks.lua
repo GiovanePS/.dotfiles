@@ -4,6 +4,7 @@ return {
     "folke/snacks.nvim",
     opts = {
 		scroll = { enabled = false },
+		indent = { enabled = false },
         dashboard = {
             preset = {
                 pick = nil,
