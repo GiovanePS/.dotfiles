@@ -25,6 +25,7 @@ return {
             "docker-compose-language-service",
             "dockerfile-language-server",
             "sqls",
+			"json-lsp",
         },
     },
 }
