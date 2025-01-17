@@ -3,6 +3,14 @@
 -- Add any additional autocmds here
 
 vim.api.nvim_create_autocmd("BufEnter", {
-  pattern = "*",
-  command = "setlocal nospell",
+    pattern = "*",
+    command = "setlocal nospell",
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = { "javascript", "typescript", "typescriptreact" },
+    callback = function()
+        vim.bo.tabstop = 2
+        vim.bo.shiftwidth = 2
+    end,
 })

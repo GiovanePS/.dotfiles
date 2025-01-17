@@ -24,7 +24,7 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 
 -- Converts tabs to white space
-vim.opt.expandtab = false
+vim.opt.expandtab = true
 
 -- Width for autoindents
 vim.opt.shiftwidth = 4
