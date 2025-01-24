@@ -1,3 +1,6 @@
+[manager]
+mouse_events = []
+
 [[plugin.prepend_fetchers]]
 id   = "git"
 name = "*"
