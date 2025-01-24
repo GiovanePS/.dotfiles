@@ -147,8 +147,19 @@ alias sd='cd ~ && selection=$(find . -type d -o -type f | fzf) && if [ -d "$sele
 alias e='colorls'
 alias l='colorls -la'
 alias b='batcat'
-alias lg='lazygit'
 alias n='nvim'
+
+function lg()
+{
+    export LAZYGIT_NEW_DIR_FILE=~/.lazygit/newdir
+
+    lazygit "$@"
+
+    if [ -f $LAZYGIT_NEW_DIR_FILE ]; then
+            cd "$(cat $LAZYGIT_NEW_DIR_FILE)"
+            rm -f $LAZYGIT_NEW_DIR_FILE > /dev/null
+    fi
+}
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
