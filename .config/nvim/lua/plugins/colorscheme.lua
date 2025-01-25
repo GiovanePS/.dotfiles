@@ -5,9 +5,6 @@ return {
         lazy = true,
         priority = 1000,
         config = function()
-            if vim.g.colors_name == "gruvbox" then
-                return
-            end
             require("monokai").setup({
                 palette = require("monokai").soda,
             })
@@ -24,14 +21,6 @@ return {
 					hi MsgArea guibg=#222426
 				]])
             end, 600)
-        end,
-    },
-    {
-        "ellisonleao/gruvbox.nvim",
-		enabled = false,
-        priority = 1000,
-        config = function()
-            vim.o.background = "light"
         end,
     },
     {

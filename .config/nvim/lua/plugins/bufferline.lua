@@ -1,6 +1,7 @@
 return {
     {
         "akinsho/bufferline.nvim",
+        enabled = false,
         version = "*",
         dependencies = "nvim-tree/nvim-web-devicons",
         opts = function(_, opts)
@@ -15,10 +16,6 @@ return {
                 return " " .. icon .. count
             end
 
-            -- Merge custom highlights
-			if vim.g.colors_name == "gruvbox" then
-				return
-			end
             opts.highlights = vim.tbl_deep_extend("force", opts.highlights or {}, {
                 fill = {
                     fg = "none",

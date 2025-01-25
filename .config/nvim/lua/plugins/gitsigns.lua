@@ -6,10 +6,6 @@ return {
             opts.current_line_blame = true
             opts.current_line_blame_opts = { delay = 300 }
 
-            -- Set custom highlights for GitSigns
-			if vim.g.colors_name == "gruvbox" then
-				return
-			end
             vim.api.nvim_set_hl(0, "GitSignsAdd", { fg = "#00ff00", bg = "none" })
             vim.api.nvim_set_hl(0, "GitSignsChange", { fg = "#ffff00", bg = "none" })
             vim.api.nvim_set_hl(0, "GitSignsDelete", { fg = "#ff0000", bg = "none" })
