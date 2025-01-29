@@ -1,5 +1,6 @@
 return {
     "neovim/nvim-lspconfig",
+    event = "BufReadPre",
     opts = {
         setup = {
             clangd = function(_, opts)
