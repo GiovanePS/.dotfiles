@@ -8,7 +8,7 @@ vim.api.nvim_create_autocmd("BufEnter", {
 })
 
 vim.api.nvim_create_autocmd("FileType", {
-    pattern = { "javascript", "typescript", "typescriptreact" },
+    pattern = { "typescriptreact" },
     callback = function()
         vim.bo.tabstop = 2
         vim.bo.shiftwidth = 2
