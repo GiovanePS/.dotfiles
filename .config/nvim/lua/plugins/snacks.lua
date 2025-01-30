@@ -3,8 +3,13 @@
 return {
     "folke/snacks.nvim",
     opts = {
-		scroll = { enabled = false },
-		indent = { enabled = false },
+        scroll = { enabled = false },
+        indent = { enabled = false },
+        picker = {
+            layout = {
+                fullscreen = true,
+            },
+        },
         dashboard = {
             preset = {
                 pick = nil,
@@ -63,8 +68,8 @@ return {
                     title = "Git Status",
                     section = "terminal",
                     enabled = function()
-						return Snacks.git.get_root() ~= nil
-					end,
+                        return Snacks.git.get_root() ~= nil
+                    end,
                     cmd = "git status -s -b --renames",
                     height = 5,
                     padding = 1,
